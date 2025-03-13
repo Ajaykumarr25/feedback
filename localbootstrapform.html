@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form - Local</title>
+    <!-- Local Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light d-flex justify-content-center align-items-center vh-100">
+
+    <form class="bg-white p-4 rounded shadow" style="width: 350px;">
+        <h4 class="text-center mb-3">Feedback Form</h4>
+
+        <div class="mb-3">
+            <label class="form-label">Name</label>
+            <input type="text" class="form-control" required>
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Email</label>
+            <input type="email" class="form-control" required>
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Phone</label>
+            <input type="number" class="form-control" required>
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Rating (1-5)</label>
+            <input type="number" class="form-control" min="1" max="5" step="1" required>
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Questions regarding product/service</label>
+            <input type="text" class="form-control">
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Additional comments</label>
+            <input type="text" class="form-control">
+        </div>
+        <button type="submit" class="btn btn-primary w-100">Submit</button>
+    </form>
+
+</body>
+</html>
